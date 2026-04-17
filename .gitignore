@@ -1,0 +1,56 @@
+# ====================
+# Excluded Directories
+# ====================
+
+# Unused source (saber translator - not used in this project)
+_saber-translator-src/
+
+# Original algorithm library (imported but not modified in this project)
+# - Exclude all except models/ subdirectory (models too large to commit)
+!manga-image-translator-main/
+manga-image-translator-main/models/
+
+# Test manga images
+漫画/
+
+# Personal files and images
+image/
+PixPin_2026-02-02_01-18-30.png
+项目简历与面试准备.md
+项目简历亮点分析.md
+SENSITIVE_INFO.md
+
+# Documentation (internal design docs)
+docs/*.md
+docs/image/
+
+# Agent configuration
+.agents/
+skills-lock.json
+
+# ====================
+# Build Artifacts
+# ====================
+
+back/target/
+back/manga-data/
+back/*.iml
+back/.idea/
+
+front/node_modules/
+front/dist/
+front/dist-ssr/
+front/*.local
+front/.idea/
+
+# ====================
+# Common
+# ====================
+
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+back/.git.bak
+front/.git.bak
+manga-image-translator-main/.git.bak
