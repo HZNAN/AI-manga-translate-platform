@@ -2,6 +2,16 @@
 
 一个集成了 OCR、文本检测、图像修复、AI 翻译和渲染的全流程漫画翻译系统。
 
+## 效果预览
+
+### 登录界面
+![登录界面](./docs/image/screenshot/登陆界面.png)
+
+### 翻译效果
+| 原图 | 译图 |
+|:---:|:---:|
+| ![原图](./docs/image/screenshot/原图.jpg) | ![译图](./docs/image/screenshot/译图.png) |
+
 ## 项目结构
 
 ```

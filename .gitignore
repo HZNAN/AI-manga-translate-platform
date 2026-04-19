@@ -22,7 +22,7 @@ SENSITIVE_INFO.md
 
 # Documentation (internal design docs)
 docs/*.md
-docs/image/
+!docs/image/screenshot/
 
 # Agent configuration
 .agents/
