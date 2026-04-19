@@ -54,3 +54,6 @@ Thumbs.db
 back/.git.bak
 front/.git.bak
 manga-image-translator-main/.git.bak
+
+# Local configuration
+back/src/main/resources/application-local.yml

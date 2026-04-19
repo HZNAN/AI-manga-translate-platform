@@ -33,3 +33,6 @@ build/
 .vscode/
 
 **/manga-data/
+
+# Local configuration (contains sensitive info)
+**/application-local.yml
